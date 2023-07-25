@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainPasscode"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainPageForeignTransfer"
+            android:exported="false" />
+        <activity
+            android:name=".MainPageRussia"
+            android:exported="false" />
+        <activity
+            android:name=".MainPageTransferCard"
+            android:exported="false" />
+        <activity
+            android:name=".MainPageAlifmobi"
+            android:exported="false" />
+        <activity
+            android:name=".MainPageNationalCard"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageVisaCard"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageCreateCard"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageHeaderCashback"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageHeaderCards"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageMore"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageTour"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageSchool"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageDomen"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageShop"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageGovermentFee"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageNgn"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageForeignOperator"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageTv"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageFunds"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageNotification"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageCards"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageTaxi"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageTransport"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageInternet"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageWallet"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageElectricity"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageOperator"
+            android:exported="false" />
+        <activity
+            android:name=".MainAlifServices"
+            android:exported="true"
+            android:label="@string/title_activity_main_alif_services"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".MainPageCurrency"
+            android:exported="true" />
+        <activity
+            android:name=".TransferMore"
+            android:exported="true" />
+        <activity
+            android:name=".TransferTour"
+            android:exported="false" />
+        <activity
+            android:name=".TransferSchool"
+            android:exported="false" />
+        <activity
+            android:name=".TransferDomen"
+            android:exported="true" />
+        <activity
+            android:name=".TransferSocial"
+            android:exported="true" />
+        <activity
+            android:name=".TransferShop"
+            android:exported="false" />
+        <activity
+            android:name=".TransferGovermentFee"
+            android:exported="false" />
+        <activity
+            android:name=".TransferNgn"
+            android:exported="false" />
+        <activity
+            android:name=".TransferForeignOperator"
+            android:exported="false" />
+        <activity
+            android:name=".TransferTv"
+            android:exported="false" />
+        <activity
+            android:name=".TransferFunds"
+            android:exported="false" />
+        <activity
+            android:name=".TransferNotification"
+            android:exported="true" />
+        <activity
+            android:name=".TransferCards"
+            android:exported="false" />
+        <activity
+            android:name=".TransferTaxi"
+            android:exported="false" />
+        <activity
+            android:name=".TransferTransport"
+            android:exported="false" />
+        <activity
+            android:name=".TransferInternet"
+            android:exported="false" />
+        <activity
+            android:name=".TransferWallet"
+            android:exported="false" />
+        <activity
+            android:name=".TransferElectricity"
+            android:exported="false" />
+        <activity
+            android:name=".TransferOperator"
+            android:exported="false" />
+        <activity
+            android:name=".TransferServices"
+            android:exported="false" />
+        <activity
+            android:name=".TransferForeign"
+            android:exported="false" />
+        <activity
+            android:name=".RussiaTajTransfer"
+            android:exported="false" />
+        <activity
+            android:name=".TransferAlifCard"
+            android:exported="false" />
+        <activity
+            android:name=".Transfer_Alifmobi"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".MoreLimits"
+            android:exported="false" />
+        <activity
+            android:name=".MoreQrCode"
+            android:exported="true" />
+        <activity
+            android:name=".MoreDocuments"
+            android:exported="true" />
+        <activity
+            android:name=".MoreQuestions"
+            android:exported="true" />
+        <activity
+            android:name=".MoreMap"
+            android:exported="false" />
+        <activity
+            android:name=".MoreNotify"
+            android:exported="true" />
+        <activity
+            android:name=".MoreTheme"
+            android:exported="true"
+            android:label="@string/title_activity_more_theme"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".MoreSecurity"
+            android:exported="true" />
+        <activity
+            android:name=".MorePersonalDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

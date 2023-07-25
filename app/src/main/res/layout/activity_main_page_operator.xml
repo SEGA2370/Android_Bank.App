@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageOperator">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212"
+        tools:layout_editor_absoluteX="-193dp"
+        tools:layout_editor_absoluteY="-75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#242426"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/more_back_button"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/back_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Мобильная связь"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+        </LinearLayout><!--Heading-->
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:background="#2B2B2B"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search here ..." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="140dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transfer_operator_mynum"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="Пополнить свой номер"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout><!--My NUmber-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transfer_operator_zetmob" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="17dp"
+                android:text="Zet-Mobile"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>  <!--Zet Mobile-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="260dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transfer_operator_megafon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="17dp"
+                android:text="Мегафон Таджикистан"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout><!--Megafon-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="320dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transfer_operator_babilon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="Бабилон Мобайл"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout><!--Babilon-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="380dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transfer_operator_tcell"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="Tcell"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout><!--Tcell-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="440dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transfer_operator_omobile"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="O-mobile"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout><!--O Mobile-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="500dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transfer_operator_anor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="Anor"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout><!--Anor-->
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

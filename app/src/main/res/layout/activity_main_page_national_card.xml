@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageNationalCard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#242426"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/more_back_button"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/back_arrow"/>
+
+            <ImageView
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/main_cardmili"/>
+
+        </LinearLayout><!--Heading-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALF**6075"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="330dp"
+            android:layout_height="2dp"
+            android:background="#3A3A3A"
+            android:layout_marginStart="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/main_cardmili_tajikistan"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 c."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Обновить"
+                android:layout_marginStart="210dp"
+                android:textColor="#2A9875"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#232323"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/main_cardmili_one"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Оплатить"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#3A3A3A"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/main_cardmili_two"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Перевести деньги"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/main_cardmili_three"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="История операций"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/main_cardmili_four"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Настройки"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="330dp"
+            android:layout_height="2dp"
+            android:background="#3A3A3A"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отправить денбги"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Все контакты"
+                android:textSize="15sp"
+                android:textColor="#3F916D"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransferElectricity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#242426">
+
+            <ImageButton
+                android:id="@+id/more_back_button"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/back_arrow"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Свет, вода и отопление"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout><!--Heading-->
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="40dp"
+            app:iconifiedByDefault="false"
+            android:background="#2B2B2B"
+            app:queryHint="Search here ..." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="140dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_heatwater"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отопительные системы
+                   г.Душанбе"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_water"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Водоканал г.Душанбе (физ.лицо)"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="260dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_water"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Водоканал г.Душанбе (юр.лицо)"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="320dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_electricity"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Электроэнергия г.Душвнбе"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="380dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_pamir"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Электроэнергия г.Худжанд"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="440dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_electricity"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Электроэнергия г.Турсунзаде"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="500dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_electricity"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Электроэнергия г.Гиссар"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="560dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_electricity"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Электроэнергия г.Вахдат"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="620dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_electricity"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Электроэнергия г.Нурек"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="680dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_goverment_electricity"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Электроэнергия г.Кулоб"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

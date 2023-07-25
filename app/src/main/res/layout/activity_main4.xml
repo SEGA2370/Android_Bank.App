@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <RelativeLayout
+        android:id="@+id/fourth_page_loanhead"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#222222">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рассрочки"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Все Рассрочки"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="60dp"
+            />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#3D3D3D">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Общий остаток рассрочек"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="#B3B3B3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Активных рассрочек нет"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"/>
+
+    </androidx.cardview.widget.CardView><!--ACTIVE LOAN-->
+
+
+    </RelativeLayout> <!--Header-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="477dp"
+        android:background="#121212"
+        app:layout_constraintTop_toBottomOf="@+id/fourth_page_loanhead">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#222224"
+            app:cardCornerRadius="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="5dp"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#757575">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Рассрочка"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Наличные"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                />
+
+        </androidx.cardview.widget.CardView> <!--LOAN and CASH-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="#242426"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="КАРТА САЛОМ № 516097"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="55dp"
+                android:background="#767676"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Назначенный лимит на 3 месяца"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#B3B4B8"
+                />
+
+            <ImageButton
+                android:id="@+id/fourth_page_exclamation"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/fourth_page_exclamation"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="300dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="20dp"
+                android:text="550c."
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Доступный лимит"
+                android:layout_marginTop="155dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#B3B4B8"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="20dp"
+                android:text="550c."
+                android:textColor="#FFFFFF"
+                />
+
+            <Button
+                android:id="@+id/fourth_page_qrpay"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="195dp"
+                android:backgroundTint="#0DBF75"
+                android:text="Приобрести в рассрочку через QR"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                />
+
+        </androidx.cardview.widget.CardView> <!--SALOM CARD info-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            app:cardBackgroundColor="#00000000"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="20dp"
+            >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Что такое карта САЛОМ ?"
+              android:textColor="#FFFFFF"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="20dp"
+              />
+          <TextView
+              android:layout_width="190dp"
+              android:layout_height="wrap_content"
+              android:text="Подробно ответим на эти и другие вопросы"
+              android:layout_marginTop="50dp"
+              android:layout_marginLeft="20dp"
+              android:textColor="#B2B3B7"
+              />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fouth_page_questionmark"
+                />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout><!--Loan and Cash-->
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#2D2D2D"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="40dp">
+
+            <ImageButton
+                android:id="@+id/toolbar_home"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/home_button_grey"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главная"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <ImageButton
+                android:id="@+id/toolbar_transfer"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/alif_toolbar_transfer"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главная"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <ImageButton
+                android:id="@+id/toolbar_history"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/alif_toolbar_history"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главная"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <ImageButton
+                android:id="@+id/toolbar_loan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/loan_button_green"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главная"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <ImageButton
+                android:id="@+id/toolbar_more"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/alif_toolbar_more"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главная"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </Toolbar><!--   Toolbar -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

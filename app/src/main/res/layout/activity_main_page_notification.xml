@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageNotification">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#242426">
+
+            <ImageButton
+                android:id="@+id/more_back_button"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/back_arrow"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Объявления"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout><!--Heading-->
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="40dp"
+            app:iconifiedByDefault="false"
+            android:background="#2B2B2B"
+            app:queryHint="Search here ..." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="140dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_arzon"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arzon.TJ"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_wallpaper"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рекламная газета"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="260dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_somon"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Somon.TJ"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="320dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_korgar"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KORGAR.TJ"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="380dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_rg"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RG.TJ"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="440dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_bankgroup"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parviz Group"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="500dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_sm"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CM 1"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="560dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_asia"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASIA"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="620dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_agenstva"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agestva.tj"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="680dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transfer_notification_wallpaper"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bino.tj"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

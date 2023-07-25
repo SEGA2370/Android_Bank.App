@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#121212">
+
+        <ImageView
+            android:id="@+id/imageViewTransfer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/alif_fifth_page_documents"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/textViewTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Фарзон М."
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewTransfer"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.184" />
+
+        <TextView
+            android:id="@+id/numberViewTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+992 98 109 8080"
+            android:layout_marginStart="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTransfer"
+            app:layout_constraintStart_toEndOf="@+id/imageViewTransfer"
+            android:textColor="#938F8F"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

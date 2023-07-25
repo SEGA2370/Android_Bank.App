@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageCreateCard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#242426">
+
+            <ImageButton
+                android:id="@+id/more_back_button"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/back_arrow"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Добавить карту"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+        </LinearLayout><!--Heading-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#242424"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/main_createcard_mili"/>
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/main_createcard_visa"/>
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/main_createcard_mastercard"/>
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/main_createcard_mir"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="Введите номер карты"
+                        android:textColor="#FFFFFF"
+                        />
+
+                    <EditText
+                        android:layout_width="270dp"
+                        android:layout_height="50dp"
+                        android:hint="**** **** **** ****"
+                        android:layout_marginStart="30dp"
+                        android:textColorHint="#676060"/>
+
+
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/main_createcard_camera"
+                        android:layout_marginStart="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Сканировать карту"
+                        android:layout_marginStart="10dp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Button
+            android:id="@+id/transfer_alifmobi_next"
+            android:layout_width="340dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="#4D4D4D"
+            android:text="Продолжить"
+            android:textColor="#C3B6B6"
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
